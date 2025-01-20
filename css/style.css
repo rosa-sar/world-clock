@@ -1,8 +1,42 @@
 body {
-  background-color: blueviolet;
+  background: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+
+  font-family: "Lobster", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .container {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 15px;
+  border: solid;
+  border-style: outset;
+  /*background: #8ba528;*/
+  background-image: linear-gradient(
+    to left,
+    #263705,
+    #43600b,
+    #638c0f,
+    #84ba12,
+    #a8eb12
+  );
+}
+h1 {
+  font-size: 45px;
+  color: antiquewhite;
+}
+select {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px;
+}
+.city {
+  padding: 20px 0;
+}
+footer {
+  text-align: center;
 }
