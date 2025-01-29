@@ -1,11 +1,15 @@
 body {
-  background: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
-
-  font-family: "Lobster", serif;
+  font-family: "Funnel Display", serif;
   font-optical-sizing: auto;
   font-style: normal;
-}
+  color: rgb(243, 255, 79);
 
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/156/009/original/pexels-jess-vide-4321069.jpg?1738139888");
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+}
 .container {
   max-width: 600px;
   margin: 60px auto;
@@ -13,16 +17,12 @@ body {
   border-radius: 15px;
   border: solid;
   border-style: outset;
-  /*background: #8ba528;*/
-  background-image: linear-gradient(
-    to left,
-    #adff2f,
-    #6f9425,
-    #91c42d,
-    #84ba12,
-    #a8eb12
-  );
+  opacity: 0.8;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/156/004/original/pexels-souvenirpixels-1519088.jpg?1738136564");
+  background-size: cover;
+  font-size: larger;
 }
+
 h1 {
   font-size: 45px;
   color: antiquewhite;
@@ -35,8 +35,13 @@ select {
   padding: 10px;
 }
 .city {
-  padding: 20px 0;
+  padding: 10px 0;
+  margin: 5px 0;
+}
+.time {
+  margin-bottom: 5px;
 }
 footer {
   text-align: center;
+  color: black;
 }
